@@ -1,0 +1,207 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#topinfo {
+    height: 49px;
+    background-color: #1B325F;
+    white-space: nowrap;
+}
+
+#topinfo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topinfo li {
+    display: inline-block;
+    position: relative;
+    left: 255px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#topinfo li:nth-child(2) {
+    padding-left: 339px;
+}
+
+#topinfo li:nth-child(3) {
+    padding-right: 115px;
+}
+
+#topinfo li:nth-child(5) {
+    padding-right: 375px;
+}
+
+#navContainer {
+    width: 100%;
+    height: 116px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 9998;
+    background-color: #FFFFFF;
+}
+
+#navContainer #logoContainer {
+    float: left;
+    width: 40%;
+    position: relative;
+    left: 375px;
+    top: 12px;
+}
+
+#navContainer #menuContainer {
+    float: right;
+    width: 60%;
+}
+
+#navContainer nav {
+    position: relative;
+    right: 45px;
+}
+
+#navContainer li a {
+    list-style: none;
+    display: block;
+    float: left;
+    text-decoration: none !important;
+    color: #333333;
+    text-align: center;
+    padding: 50px 16px 46px 16px;
+    font-weight: 500;
+}
+
+#navContainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    font-family: 'Roboto', serif;
+}
+
+#navContainer li a:hover {
+    color: #3A89C9;
+}
+
+#backgroundContainer {
+    position: relative;
+    top: 51px;
+}
+
+#backgroundContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+#headerTextContainer {
+    font-family: 'Roboto', serif;
+    position: absolute;
+    right: 392px;
+    width: 450px;
+    top: 70px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+#headerTextContainer h1 {
+    font-size: 65px;
+    font-weight: 500;
+}
+
+#headerTextContainer h2 {
+    position: relative;
+    bottom: 30px;
+    font-weight: 400;
+}
+
+#headerTextContainer .button {
+    position: relative;
+    bottom: 20px;
+}
+
+.button {
+    background-color: #1B325F;
+    border: none;
+    color: #FFFFFF;
+    padding: 14px 29px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button .button:hover {
+    color: #3A89C9;
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Roboto', serif;
+}
+
+#formContainer {
+    position: absolute;
+    top: 475px;
+    right: 390px;
+    height: 539px;
+    width: 371px;
+    z-index: 9999;
+    font-family: 'Roboto', serif;
+    background-color: #FFFFFF;
+}
+
+#formContainer h3 {
+    color: #1B325F;
+    padding: 41px 5px 0 79px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#formContainer #formButton {
+    position: relative;
+    left: 199px;
+    width: 150px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+form input,
+select,
+textarea {
+    background-color: #E9F2F9;
+    margin: 10px 0 0 20px;
+    font-size: 15px;
+    width: 90%;
+    border: none;
+    padding: 10px 22px 10px 20px;
+    font-weight: 400;
+}
+
+#formShadow {
+    background-color: #F26C4F;
+    position: absolute;
+    z-index: 9998;
+    height: 539px;
+    width: 385px;
+    top: 505px;
+    right: 375px;
+}
+
+
+/*# sourceMappingURL=main.css.map */
