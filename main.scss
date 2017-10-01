@@ -48,6 +48,13 @@
                     li:nth-child(5) {
                         padding-right: 373px;
                     }
+                    img {
+                        position: relative;
+                        right: 10px;
+                    }
+                    .phoneIcon {
+                        top: 2px;
+                    }
                 }
                 
                 //navbar settings
@@ -182,7 +189,7 @@
                     background-color: $form-background;
                     margin: 10px 0 0 20px;
                     font-size: 15px;
-                    width: 90%;
+                    width: 88.6%;
                     border: none;
                     padding: 10px 22px 10px 20px;
                     font-weight: 400;

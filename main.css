@@ -32,6 +32,11 @@ body {
     padding-right: 103px; }
   #topinfo li:nth-child(5) {
     padding-right: 373px; }
+  #topinfo img {
+    position: relative;
+    right: 10px; }
+  #topinfo .phoneIcon {
+    top: 2px; }
 
 #navContainer {
   width: 100%;
@@ -142,7 +147,7 @@ textarea {
   background-color: #E9F2F9;
   margin: 10px 0 0 20px;
   font-size: 15px;
-  width: 90%;
+  width: 88.6%;
   border: none;
   padding: 10px 22px 10px 20px;
   font-weight: 400;
